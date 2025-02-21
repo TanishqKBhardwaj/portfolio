@@ -24,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{backgroundColor:'#03001C'}}>
         <head />
-        <body>
+        <body >
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
