@@ -61,7 +61,7 @@ export const navItems = [
       id: 6,
       title: "Do you want to start a project together?",
       description: "",
-      className: " md:col-span-1 md:row-span-1 h-[15em]",
+      className: " md:col-span-1 md:row-span-1 h-[20em]",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center absolute bottom-20",
       img: "",
@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "3D Solar System Planets to Explore",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      img: "/assets/p1.svg",
       iconLists: ["/assets/re.svg", "/assets/tail.svg", "/assets/ts.svg", "/assets/three.svg", "/assets/fm.svg"],
       link: "https://github.com/adrianhajdin?tab=repositories",
     },
@@ -215,3 +215,7 @@ export const navItems = [
       img: "/assets/link.svg",
     },
   ];
+  export const technologies=[
+    ['/assets/react.svg','/assets/mongodb.svg','/assets/express-js.svg','/assets/nodejs.svg'],
+    ['/assets/c++.svg','/assets/javascript.svg','/assets/ts.svg','/assets/python.svg']
+  ]
