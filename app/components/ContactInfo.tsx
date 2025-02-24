@@ -4,7 +4,7 @@ import * as motion from 'motion/react-client'
 
 function ContactInfo() {
   return (
-    <div className='py-20 '>
+    <div className='py-20 ' id='about'>
       <motion.div initial={{translateX:'-100%',opacity:0}} whileInView={{translateX:'0%',opacity:1}} transition={{duration:2,ease:'easeInOut',staggerChildren:2}} className=' flex justify-center w-fit h-[30rem]  shadow-2xl shadow-purple-500 '>
         <CardSpotlight className='w-full h-full' >
 

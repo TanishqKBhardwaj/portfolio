@@ -205,17 +205,22 @@ export const navItems = [
     {
       id: 1,
       img: "/assets/git.svg",
+      link:"https://github.com/TanishqKBhardwaj"
     },
     {
       id: 2,
-      img: "/assets/twit.svg",
+      img: "/assets/leetcode.svg",
+      link:"https://leetcode.com/u/Tanishq_Bhardwaj/"
     },
     {
       id: 3,
       img: "/assets/link.svg",
+      link:"https://www.linkedin.com/in/tanishq-bhardwaj-72a2822b0/"
     },
   ];
   export const technologies=[
     ['/assets/react.svg','/assets/mongodb.svg','/assets/express-js.svg','/assets/nodejs.svg'],
     ['/assets/c++.svg','/assets/javascript.svg','/assets/ts.svg','/assets/python.svg']
   ]
+
+  

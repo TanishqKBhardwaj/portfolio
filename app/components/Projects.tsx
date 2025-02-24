@@ -6,7 +6,7 @@ function Projects() {
   return (
     <motion.div 
     initial={{ opacity: 0,scale:0.5 }}
-    whileInView={{ opacity: 1,scale:1 }} transition={{duration:2,ease:"easeInOut"}} className='py-20'>
+    whileInView={{ opacity: 1,scale:1 }} transition={{duration:2,ease:"easeInOut"}} className='py-20' id='projects'>
       <h1 className='text-center text-4xl md:text-5xl font-bold w-[10rem] mx-auto md:w-full '>Some of my <span className='text-purple-500'>recent projects</span></h1>
     <div className='flex flex-col mt-10 md:flex-row items-center justify-center'>
       { projects.map((item,index)=>(
