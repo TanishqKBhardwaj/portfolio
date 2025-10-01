@@ -60,7 +60,6 @@ interface DotMatrixProps {
   totalSize?: number;
   dotSize?: number;
   shader?: string;
-  center?: ("x" | "y")[];
 }
 
 const DotMatrix: React.FC<DotMatrixProps> = ({
@@ -69,7 +68,6 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
   totalSize = 4,
   dotSize = 2,
   shader = "",
-  center = ["x", "y"],
 }) => {
   const uniforms: ShaderUniforms = useMemo(() => {
     let colorsArray = [colors[0], colors[0], colors[0], colors[0], colors[0], colors[0]];
