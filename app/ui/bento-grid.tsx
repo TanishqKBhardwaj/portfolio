@@ -96,7 +96,7 @@ export const BentoGridItem = ({
           {id == 3 &&
             <div className="grid absolute top-20 mx-auto grid-cols-2 gap-2 justify-between items-center w-full">
               {['MongoDb', 'ExpressJs', 'ReactJs', 'NodeJs', 'TailwindCss'].map((item, index) =>
-                <div className="border w-10px border-sky-400 rounded-xl">
+                <div className="border w-10px border-sky-400 rounded-xl" key={index}>
                   <p className="text-center p-2 text-sm text-slate-500">{item}</p>
                 </div>
 

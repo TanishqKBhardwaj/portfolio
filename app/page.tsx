@@ -10,7 +10,7 @@ import Technologies from "./components/Technologies";
 export default function Home() {
   return (
     
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-6xl mx-auto overflow-x-hidden">
       <Navbar/>
         <Hero />
         <Grid/>

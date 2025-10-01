@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { technologies } from '../data'
 import * as motion from 'motion/react-client'
