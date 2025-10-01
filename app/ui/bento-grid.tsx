@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./background-gradient-animation";
 import { GlobeDemo } from "../components/GridGlobe";
 import * as motion from "motion/react-client"
-import { animate, stagger } from "motion"
+import { animate } from "motion"
 import { useState } from "react";
 
 export const BentoGrid = ({

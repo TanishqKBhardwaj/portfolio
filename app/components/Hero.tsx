@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import { cn } from "@/lib/utils";
 import { Spotlight } from "../ui/Spotlight";
 import { TextGenerateEffect } from '../ui/text-generate-effect';
 import { IoIosSend } from 'react-icons/io';
