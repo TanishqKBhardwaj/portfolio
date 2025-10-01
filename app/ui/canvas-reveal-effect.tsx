@@ -43,7 +43,7 @@ export const CanvasRevealEffect = ({
             opacity *= step(intro_offset, u_time * animation_speed_factor);
             opacity *= clamp((1.0 - step(intro_offset + 0.1, u_time * animation_speed_factor)) * 1.25, 1.0, 1.25);
           `}
-          center={["x", "y"]}
+         
         />
       </div>
       {showGradient && (
